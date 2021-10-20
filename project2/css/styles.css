@@ -60,6 +60,11 @@ p {
     background-color: #14F514;
 }
 
+.active {
+    background-color: #D9981E;
+    color: #BF1523;
+}
+
 
 nav {
     text-align: center;
