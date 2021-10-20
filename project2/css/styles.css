@@ -1,0 +1,97 @@
+#container {
+    background-color: #079DD9;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #D9981E;
+}
+
+header {
+    font-size: 5em;
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Spicy Rice', cursive;
+}
+
+p {
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+.imagecenter1 {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+    
+.imagecenter2 {
+    width: 75%;
+    display: block;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.emphasis {
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #F2BF27;
+}
+
+.linkemphasis {
+    background-color: #14F514;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #BF1523;
+    height: 60px;
+    width: 325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 60px;
+    color: #D9981E;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
+}
+
+nav a:hover {
+    background-color: #D9981E;
+    color: #BF1523;
+}
+
+main {
+    background-color: #BF1523;
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
