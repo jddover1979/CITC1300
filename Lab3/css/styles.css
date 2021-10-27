@@ -42,6 +42,7 @@ header h1 {
 
 .col img {
     width: 50%;
+    border-radius: 20px;
 }
 
 .main_img {
