@@ -21,13 +21,15 @@ img {
     padding-bottom: 5px;
 }
 
-.column {
+.col {
     border: 3px solid #2ECEF2;
     border-radius: 20px;
-    margin: 20px 20px; 
+    padding: 20px; 
+    margin: 20px;
+
 }
 
-.column img {
+.col img {
     width: 50%;
     border-radius: 20px;
 }
@@ -43,6 +45,7 @@ header {
 header p {
     font-size: 18px;
     font-family: 'Acme', sans-serif;
+    
 }
 
 h2 {
@@ -75,9 +78,10 @@ footer {
         
     }
 
-    .column img {
+    .col img {
         width: 200px; 
         height: 200px;
+        margin: 20px auto;
     }
 
     header {
@@ -93,7 +97,7 @@ footer {
     }
 
     p {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
@@ -116,14 +120,15 @@ footer {
         width: 75%;
     }
 
-    .column {
+    .col {
         margin: 20px;
         border-radius: 20px;
     }
 
-    .column img {
-        width: 300px;
-        height: 300px;
+    .col img {
+        width: 200px;
+        height: 200px;  
+        
     }
 
 }
