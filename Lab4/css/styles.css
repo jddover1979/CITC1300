@@ -97,6 +97,31 @@ footer {
     color: #468C58;
 }
 
+.single_col {
+    width: 82.3%;
+}
+
+audio, video {
+    display: block; 
+    margin: 20px auto; 
+    width: 75%; 
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.gallery_img {
+    border: 4px solid #468C58;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
 /* Tablet Styles */
 
 @media(min-width: 768px) {
@@ -141,7 +166,13 @@ footer {
         border-radius: 10px;
         border: 4px solid #468C58;
     }
+
+    .single_col {
+        width: 95%;
+    }
 }
+
+
 
 /* Desktop Styles */
 
@@ -172,5 +203,27 @@ footer {
 
     .col {
         width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #468C58;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none; 
+    }
+
+    table {
+        display: block;
     }
 }
