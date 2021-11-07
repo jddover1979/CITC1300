@@ -27,6 +27,16 @@ header {
     font-weight: bold;
     text-align: center;
     padding: 10px 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+p, td, footer {
+    font-family: 'Mukta', sans-serif;
+    padding: 10px auto;
 }
 
 nav {
@@ -58,7 +68,7 @@ nav a:hover {
 }
 
 p {
-    padding: 0 10px;
+    padding: 20px 20px;
 }
 
 section, aside, .col, footer {    
@@ -68,6 +78,25 @@ section, aside, .col, footer {
     border-radius: 10px;
     background-color: #D9AFA0;
     text-align: center;
+}
+
+.video_size {
+    max-width: 90%;
+    margin: 20px 20px;
+}
+
+.audio_size audio {
+    max-width: 75%;    
+}
+
+iframe {
+    margin: 10px auto;
+    max-width: 90%; 
+    display: block;
+}
+
+.gallery_img {
+    display: none;
 }
 
 /* TABLET STYLES */
@@ -89,6 +118,16 @@ section, aside, .col, footer {
     header {
         max-width: 75%;
         font-size: 2em;
+    }
+
+    .video_size {
+        max-width: 600px; 
+        max-height: 400px;
+        margin: 20px 20px;
+    }
+
+    iframe {
+        max-width: 75%
     }
 
 }
@@ -123,16 +162,47 @@ section, aside, .col, footer {
     }
 
     nav {
-        max-width: 60%;
+        max-width: 83.5%;
+    }
+
+    nav a {
+        max-width: 140px;
     }
 
     header {
-        max-width: 61%;
-        font-size: 3em;
+        max-width: 85%;
+        font-size: 2.8em;
     }
 
     footer {
-        max-width: 60%;
+        max-width: 53%;
         padding: 20px;
     }
+
+    .video_size {
+        max-width: 600px; 
+        max-height: 400px;
+        margin: 20px 20px;
+    }
+    
+    .audio_size {
+        max-width: 75%;    
+    }
+
+    .gallery_img {
+        display: block;
+        max-width: 85%;
+        margin: 20px auto;        
+    }
+
+    table, tr, td {
+        border: 4px solid #A65746;
+        border-radius: 10px;
+        margin: 20px; 
+    }
+
+    .hide_photos {
+        display: none;
+    }
+
 }
