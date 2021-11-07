@@ -36,7 +36,7 @@ h2, h3 {
 
 p, td, footer {
     font-family: 'Mukta', sans-serif;
-    padding: 10px auto;
+    padding: 10px 10px;
 }
 
 nav {
@@ -175,7 +175,7 @@ iframe {
     }
 
     footer {
-        max-width: 53%;
+        max-width: 75%;
         padding: 20px;
     }
 
